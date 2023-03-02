@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    form{
+
+        padding-top: 20px;
+        width: 350px;
+        height: 400px;
+        background: linear-gradient( #39c91c  5%,#000000 100%);;
+        
+        margin: 50px auto;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        box-shadow: -10px 20px 15px 10px #0c868f ;
+        
+        }
+body {
+    background-color: #2E4053 ;    
+        font-style: italic;
+        text-align:center;
+  }
+h2{
+    padding: 20px 25px;
+    color: #ffffff ;
+    text-align:center;
+    border-radius: 5px 5px 0 0;
+    margin: 10px auto;
+    }
+    hr{
+    margin: 10px -50px;
+    border: 0;
+    border-top: 1px solid #eb0f0f;
+    margin-bottom: 40px;
+    }
+    div.container{
+    width: 900px;
+    height: 610px;
+    margin:35px auto;
+    font-family: 'Raleway', sans-serif;
+    }
+    div.main{
+    width: 300px;
+    padding: 10px 50px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: raleway;
+    float:left;
+    margin-top:50px;
+    }
+    input[type=text],input[type=password]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #070707;
+    color: #6204bb;
+    font-size: 16px;
+    border-radius: 5px;
+    }
+    label{
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: bold;
+    }
+    center{
+    font-size:32px;
+    }
+    .note{
+    color:rgb(20, 216, 223);
+    }
+    .valid{
+    color:rgb(171, 30, 206);
+    }
+    .back{
+    text-decoration: none;
+    border: 1px solid rgb(129, 26, 160);
+    background-color: rgb(255, 0, 0);
+    padding: 3px 20px;
+    border-radius: 2px;
+    color: black;
+    }
+    input[type=button]{
+    font-size: 16px;
+    background: linear-gradient(#39c91c 5%, #13111a 100%);
+    border: linear-gradient(#39c91c 5%, #13111a 100%);
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline:none;
+    }
+    input[type=button]:hover{
+    background: linear-gradient(#39c91c 5%, #13111a 100%);
+    }
+    
